@@ -1,0 +1,17 @@
+@keyframes scan {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.scan-line {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: red;
+  top: 0;
+  animation: scan 1s infinite;
+}
